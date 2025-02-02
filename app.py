@@ -31,7 +31,7 @@ docsearch = PineconeVectorStore.from_existing_index(
 )
 
 
-retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k": 2})
+retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
 client = Groq(api_key=GROQ_API_KEY)
 
