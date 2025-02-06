@@ -92,7 +92,7 @@ open up localhost:
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: http://145023113135.dkr.ecr.ap-south-1.amazonaws.com/gbuchatbot
+    - Save the URI: 145023113135.dkr.ecr.ap-south-1.amazonaws.com/gbubot
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
