@@ -33,4 +33,3 @@ docsearch = PineconeVectorStore.from_documents(
     index_name=index_name,
     embedding=embeddings,
 )
-
