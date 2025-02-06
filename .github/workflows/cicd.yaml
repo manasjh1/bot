@@ -5,8 +5,9 @@ on:
     branches: [main]
 
 jobs:
-  Continuous-Integration:
-    runs-on: ubuntu-latest
+    Continuous-Deployment:
+    needs: Continuous-Integration
+    runs-on: ubuntu-latest  
 
     steps:
       - name: Checkout
